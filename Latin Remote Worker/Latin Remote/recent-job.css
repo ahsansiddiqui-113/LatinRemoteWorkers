@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#recent-job-container {
+    margin: 0 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.recent-job-item {
+    width: 100%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.recent-job-item:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1)
+}
+
+.recent-job-image {
+    position: relative;
+}
+
+.recent-job-image img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.company-posting-position {
+    position: absolute;
+    bottom: 5%;
+    right: 20px;
+}
+
+
+.company-posting-position button:nth-child(1) {
+    color: white;
+    background-color: rgb(97, 11, 177);
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.company-posting-position button:nth-child(2) {
+    color: white;
+    background-color: rgb(88, 148, 185);
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.company-posting-position button:hover {
+    background-color: #cce7ff;
+    color: blueviolet;
+}
+
+.recent-company-details-container {
+    padding: 20px;
+}
+
+.recent-company-details-container h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.recent-company-details-container h2 a {
+    text-decoration: none;
+    color: black;
+
+    /* Code copy from google  */
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #000;
+    margin: 0 0;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+/* Code copy from google  */
+.recent-company-details-container h2 a:hover {
+    box-shadow: inset 260px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.recent-company-container {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.recent-company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.recent-company img {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 25px 0 rgba(194, 192, 192, 0.3);
+}
+
+.favourite-love {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.favourite-love i {
+    color: rgb(189, 189, 255);
+}
+
+.favourite-love i:hover {
+    color: orange;
+}
+
+.location-and-timer-container {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+.location-and-timer-container i {
+    color: rgb(189, 189, 255);
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.apply-and-money-container {
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.money i {
+    color: rgb(189, 189, 255);
+}
+
+.recent-apply-btn a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#browse-job {
+    text-align: right;
+    margin: 0 40px 100px 0;
+}
+
+#browse-job a {
+    text-decoration: none;
+    background-color: rgb(250, 102, 48);
+    color: white;
+    font-size: 2rem;
+    padding: 10px 50px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 0 #5d52ba;
+    transition: .4s;
+}
+
+#browse-job a:hover{
+    /* background-color: #5d52ba; */
+    box-shadow: inset 350px 0 0 0 #5d52ba;
+}

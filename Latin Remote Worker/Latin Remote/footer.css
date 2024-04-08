@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#footer-container {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#footer-contact-help {
+    margin-top: 20px;
+}
+
+.contact-item-footer {
+    display: flex;
+    gap: 20px;
+
+    padding: 5px 0;
+}
+
+.contact-item-footer i {
+    color: rgb(101, 101, 170);
+}
+
+.contact-item-footer a {
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+}
+
+.company-link {
+    margin-top: 10px;
+}
+
+.company-link a {
+    text-decoration: none;
+    color: rgb(58, 58, 117);
+    display: block;
+    padding: 5px;
+}
+
+.useful-link {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.useful-link i {
+    display: block;
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(58, 58, 117);
+}
+
+#newsletter-form {
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(209, 247, 247);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#newsletter-form h3 {
+    padding-bottom: 10px;
+}
+
+.get-notified-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.get-notified-container div {
+    margin-left: 10px;
+}
+
+.get-notified-container input {
+    border: none;
+    margin-left: 5px;
+}
+
+.get-notified-container input:focus {
+    outline: none;
+}
+
+.send-icon {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(84, 164, 255);
+    border-radius: 50%;
+    padding: 10px;
+}

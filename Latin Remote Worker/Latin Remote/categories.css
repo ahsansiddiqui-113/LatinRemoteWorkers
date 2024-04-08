@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#categories-container {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#categories-container h1 {
+    font-size: 3rem;
+}
+
+.categories-item-parent {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categories-item {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #5d52ba;
+    color: white;
+    font-weight: 600;
+    padding: 50px 20px;
+    border: 10px solid #7f73eb;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.categories-item:hover {
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.categories-item-children {
+    background-color: #0dcaf0;
+    position: absolute;
+    top: -5%;
+    right: 0;
+    border-radius: 100%;
+}
+
+.categories-item-children p {
+    font-weight: 700;
+    padding: 10px;
+}
+
+/* Target job intro */
+
+#target-job-intro {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    margin-bottom: 5em;
+}
+
+.target-job-intro-child-one {
+    position: relative;
+}
+
+.target-job-intro-child-one img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.intro-one-text {
+    text-align: center;
+    background-color: rgb(135, 85, 182);
+    padding: 5px 10px;
+    margin: 0;
+    border-top: 20px solid rgb(34, 196, 196);
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    color: white;
+}
+
+.intro-one-text h1 {
+    font-size: 1.1rem;
+}
+
+.target-job-intro-child-two {
+    background-color: rgb(0, 183, 255);
+    padding: 50px 50px 90px;
+}
+
+.target-job-intro-child-two h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.target-job-intro-child-two p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.target-job-intro-child-two p a {
+    text-decoration: none;
+    color: #5a5394;
+    font-size: .8rem;
+}
+
+.intro-link a {
+    font-size: 1.1rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: white;
+    transition: background-color .7s;
+}
+
+.intro-link a:hover {
+    background-color: white;
+    color: rgb(127, 127, 253);
+}
+
+.target-job-intro-child-three {
+    position: relative;
+}
+
+.target-job-intro-child-three img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.intro-three-text {
+    background-color: rgb(255, 87, 87);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    border-radius: 40px;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 10px;
+}
+
+.intro-three-text a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}

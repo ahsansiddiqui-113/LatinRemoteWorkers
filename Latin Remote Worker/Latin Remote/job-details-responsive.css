@@ -1,0 +1,59 @@
+@media screen and (max-width: 750px) and (min-width: 330px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .job-details {
+        margin: 20px 10px;
+        flex-direction: column-reverse;
+    }
+
+    .job-info h2 {
+        font-size: 2rem;
+    }
+
+    .job-info-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .job-info-container .job-position {
+        margin: 0 0 0 0;
+    }
+
+    .requirement ul {
+        margin: 0 20px;
+    }
+
+    .apply-save-share {
+        align-items: center;
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 20px;
+    }
+
+    .apply-save-share .apply-save {
+        display: flex;
+        gap: 20px;
+    }
+
+    .job-company-container {
+        margin: 50px 0 0 0;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    #similar-jobs {
+        margin: 50px 10px 100px;
+        flex-direction: column;
+        align-items: start;
+        gap: 40px;
+    }
+
+}

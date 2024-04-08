@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#review-item-container {
+    margin: 100px 0;
+}
+
+#review-heading {
+    text-align: center;
+    margin: 0 0 130px;
+}
+
+#review-heading h2 {
+    transform: scaleY(1.1);
+    font-size: 2.5rem;
+}
+
+#review-parent {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.review-item {
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    position: relative;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+
+.review-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 40%;
+    right: 50%;
+}
+
+.review-item h2 {
+    margin: 30px 0 0 0;
+}
+
+.review-star {
+    margin: 0 0 30px 0;
+}
+
+.review-star i {
+    color: brown;
+}
+
+.review-text {
+    padding: 10px 20px;
+    text-align: justify;
+    background-color: transparent;
+    /* opacity: 0;
+    transition: opacity .4s; */
+    transition: .1s;
+    position: absolute;
+    top: -1000000000000000000000%;
+}
+
+
+/* Hover effect */
+.review-item:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.review-item:hover .review-text {
+    /* opacity: 1; */
+    top: 50%;
+    left: 0;
+}
